@@ -1,0 +1,224 @@
+
+
+===========================================================================================================
+CAM
+Categories
+Articles
+Menus
+
+Adding 
+Components
+Modules
+
+===============================================================================================================
+Course Outline
+
+In this course, Jen Kramer shows how to use Joomla! to build a website from scratch—all without a single line of code. 
+Discover how to create and organize content, add menus and sidebars, change the look of the site with templates, control 
+who creates and edits content, and much more. The course also shows you how to evaluate the quality of extensions, 
+plugins, and templates and how to download and install them. Finally, Jen emphasizes the importance of backing up 
+your Joomla! site, and explains how to create and store those backups.
+
+
+Topics include:
+What is Joomla!?
+Completing Joomla! installation
+Planning your website
+Organizing content in Joomla!
+Creating categories, articles, and menus
+Formatting text and images
+Using modules and components
+Identifying and installing good-quality third-party extensions and templates
+Supporting multiple languages with Joomla!
+Managing users and their permissions
+Changing the look of the site with templates
+Launching your site
+
+=========================================================================================================================
+New Admin and Wesite templates
+eg SEO (Search Engine Optimization Settings)
+==========================================================================================================================
+web host
+vs 
+web server
+   web page request from user computer
+   sends back: index.html, images, CSS, Flash files, JavaScript, and so forth 
+   NOTE: php is just run on the server
+
+CMS- A Content Management System or CMS is very different than static site.
+
+index.php   
+this tells the server to ask php (middleware) to get stuff from MySQL and process things before sending anything to the client.
+PHP requests data
+data sent to PHP
+PHP arranges the information according to the PHP code
+PHP is stripped out and replaced by html and sent to the client
+
+therefore Joomla needs Apache or IIS, PHP and MySQL on the server (see Joomla.org)
+
+In a world where we increasingly integrate photo galleries, calendars, social media, news feeds, blogs, and other dynamic 
+information a CMS becomes more important due to the ease of integrating these features into the Web site. If you're still 
+feeling like a CMS is complicated, don't panic. This movie was as geeky as the rest of this title gets. Keep watching and 
+you will start feeling more comfortable with Joomla! shortly.
+
+=======================================================================================================================
+What is the plan for the website???  Outline
+
+start with a plan 
+build inside pages/content 
+build homepage 
+debug the website 
+
+Goals? Organizational Goals?
+what's the reason it exists? 
+who does it serve? 
+what is it trying to achieve? 
+
+Users 
+who are they?
+what do they want from the website?
+where are they coming from?          computer, tablet, phone? 
+
+========================================================================================================================
+Intro Section
+
+Joomla release cycle?
+6 month release cycler
+   short term releases  (7 months before end of life, no longer supporter) (eg 3.0, 3.1)
+   long term release 18 months (eg 3.5)
+   
+   
+=============================================================================================================
+CHAPTER 1
+   ...
+Install
+1) XAMPP
+2) Create database  myloomlalynda  (no special username or password)
+3) Folder  in htdocs  myJoomlaLynda
+4) Put in joomla there from download
+5) now install it localhost/myJoomlaLynda
+    site name myJoomlaLynda
+	description: 
+	admin: rickmac
+	passwd: no password
+NEXT
+  database 
+  root nopassword 
+NEXT sample data??? 
+  blog or whatever 
+  NONE for this course --- since dont want to have to delete the sample data.
+CLICK INSTSALL
+
+REMOVE INSTALLATION DIRECTORY last step
+
+   ...
+   ...
+==================================================
+Restoring the site from a backup using the jump-in files (if really really need it)
+   see Chapter 1 01_05  (see zip and sql files)
+   run xampp
+   1) delete the joomla website from my htdocs
+   2) copy the files from the zipped file to the location
+   3) import sql into database inside phpMyAdmin. Click on my database and click on Drop icon
+      create db joomla 
+	  import sql data to get it imported (the extention will be different than in the video)
+	  MAC :  error will be on database.  So on Mac need to have to adjust configeration file and change password to 'root' and save it 
+	         then refresh and you can see it.
+
+
+			 
+
+
+=============================================================================================================
+CHAPTER 2
+   ...
+   ...
+   ...
+Backend Administrator
+localhost/mywebsite/administrator
+
+MACintosh localhost:8888/administrator
+
+http://localhost/myJoomlaLynda/administrator
+orhttp://localhost/myJoomlaLynda
+
+
+A quick tour of the Joomla! interface=====================================================================
+System menu 
+Users menu
+Menus menu 
+Content menu 
+Components menu 
+Extensions menu 
+Help menu 
+
+Components 
+Components are big functionalities that we add to Joomla!, they take up the entire screen when they display. 
+So things like the Contact forms for the Web site are an example of that.
+This also contains some Administrator side components as well that will be useful to you like updating 
+to the next version of Joomla
+
+
+Extensions 
+Under Extensions this is where we can manage some additional pieces of functionality, I will cover the Language 
+Manager in the chapter on multilingual Web sites so your Joomla! site can be presented in more than one language.
+	Module Manager 
+	Plugin Manager
+	Template Manager 
+	Language Manager 
+
+
+
+Exploring responsive design in Joomla!=================================================================================
+One of the great new features in Joomla! 3.0 is the fact that it is mobile compatible right out of the box.
+
+The term was coined by Ethan Marcotte who defines responsive design as having 3 characteristics that were very important. 
+1)  a flexible grid, 
+2)  images that resize 
+3)  is media queries, which is something you can use in CSS. 
+
+So Joomla! 3.0 ships with the 
+Bootstrap framework 
+and this is a framework of HTML5, CSS3 and jQuery which is bundled 
+together and maintained by Twitter, Twitter the company, not Twitter the application.
+
+You can learn more about Bootstrap if you go to my course Up and Running with Bootstrap and it will go 
+through just the Bootstrap side of things using Dreamweaver. 
+But, since Joomla! ships with Bootstrap it's not only used here on the front-end for a template; it's 
+also used in the back-end of the Web site. 
+
+
+Modifying the global configuration===========================================================================================
+this is where you configure the big pieces of your Joomla! Website. 
+
+-- Include Site Name and Page Titles is a really important thing to turn on. 
+-- Meta Description: search engines look at this.
+eg  keywords in here are used by search engines so we can customize this for getting hits.
+Write a short, precise meta description that's full of keywords that people will use to 
+find your Website and make sure you put it on in here.
+
+System tab: session setting says how long Admin can be logged on
+Server tab: can set timezone 
+Permissions tab: Access Control Lists 
+Text Filters tab : this controls what kind of HTML tags various levels of users can put into their Website.
+
+Using the Media Manger======================================================================================================
+Media Manager is where you can upload images or PDFs or any kind of document that you'd like to display inside of 
+your Joomla! Web site. 
+
+Content : Media Manger 
+or 
+Control Panel
+
+FOLDERS 
+files in root and 
+/banners
+/headers
+/sampledata
+
+Can create any folders etc that we want and upload pictures
+
+
+
+
+
