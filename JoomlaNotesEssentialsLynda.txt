@@ -218,7 +218,49 @@ files in root and
 
 Can create any folders etc that we want and upload pictures
 
+Options tab: only super admin should change this. 
+    may want to add DOCX
+	file size: maybe also need to adjust PHP max settings 
 
 
+Creating content in Joomla!=================================================================================================
+
+     3 steps CAM  (order is very important)
+1) create a category for the content (if it does not already exist)
+2)  create an article within that category
+3) create a link to the article in the menu
+
+
+
+=============================================================================================================
+CHAPTER 3  Creating Categories
+   ...
+   ...
+   ...
+Creating categories for your site================================================================================
+Cagegory Manager in Dashboard 
+or
+Content: Category Manager
+
+She created the following categories 
+							Home - Uncategorized category
+
+							Products - Products category
+
+							News & Info - News category
+							   Solar Blog - Solar category
+							   Press Releases - Press Release category
+
+							About - About category
+								Company Structure - About category
+								Executives - About category
+
+							Links - Weblinks component, no category needed
+
+							Contact Us - Contact component, no category needed
+
+to creat do this:
+
+Publishing, unpublishing, and trashing categories==================================================================
 
 
