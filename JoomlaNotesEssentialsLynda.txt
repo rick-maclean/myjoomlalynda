@@ -259,8 +259,122 @@ She created the following categories
 
 							Contact Us - Contact component, no category needed
 
-to creat do this:
+to create do this: obvious from the interface
 
 Publishing, unpublishing, and trashing categories==================================================================
+check it and click on trash can
+Filter: Trashed : then Empty Trash to really get rid of it
+
+Alternatively just Unpublish it 
+
+So remember that trashing something is actually a two-step process; you have to send it to the Trash and 
+then you have the empty the trash to get rid of an item entirely and publishing in unpublishing are really 
+probably the way you want to work with most of your content inside of Joomla!, it means that you have still 
+got a copy of things available, if you ever need to republish it to the Web site, you can just click a button
+and restore it to its previous state whereas trashing of course, it's a far more permanent kind of thing and 
+it's hard to get content back, like impossible, if you do get rid of something from your Web site and then it 
+turns out you need it later.
+
+
+
+==================================================================================================================
+=============================================================================================================
+CHAPTER 4
+ Creating Articles and Basic Formatting
+   ...
+   ...
+   ...
+Creating individual articles=================================================================================
+goto Article Manager
+
+Title
+Category 
+
+Formatting articles===========================================================================================
+Headings etc etc etc
+
+Tools available to us can be added to 
+Extensions : Plugin Manager : find TinyMCE and click it 
+change Functionality to Extended 
+   tables, mediaEmbedded, paste MSWord, 
+   turn off specific ones: TinyMCE : AdvancedParameters : turn off what I don't want 
+   
+JCE other Joomla editor plugin 
+
+
+Adding an external link====================================================================================
+www.windpoweringamerica.gov 
+highlight text and click on link icon 
+new or same window or tab?
+
+Adding article images=======================================================================================
+upload to media manager 
+or 
+one at a time for each article 
+
+Click on Image button (find in library or browse) It will upload to current location in library 
+NOTE: search engine likes desc and title 
+
+Using Read More=============================================================================================
+BLOG:
+1) Add articles (each can be a blog entry)
+2) Might want picture at end of article so not in summary 
+3) Click in location for readmore   (click on ReadMore button on the bottom)
+Keep adding articles.
+
+Exploring featured articles and pages========================================================================
+Create HOME Page 
+1) Create article 
+2) no category needed 
+3) To make on HomePage do this:   make it a Featured Article (featured YES now see Star in list of articles)
+4) now it appears on home page (will want some Details to not show up)
+
+All Featured articles appear on home page. (publish, unpublished, trashed)
+
+Publishing, unpublishing, and trashing articles==============================================================
+We saw this already before.
+
+
+
+=============================================================================================================
+CHAPTER 5. 
+Creating Menus for Your Site
+   ...
+   ...
+   ...
+   
+   
+1h 16m
+Understanding and configuring menus
+2m 52s
+Linking an article to the menu
+4m 10s
+Understanding parent and children menu items
+4m 5s
+Configuring Category Blogs
+3m 23s
+Advanced Category Blog configuration
+8m 44s
+Configuring Category Lists
+3m 16s
+Advanced Category List configuration
+5m 57s
+Creating a featured blog for the News page and configuring the homepage
+10m 19s
+Publishing, unpublishing, and trashing menu items
+4m 58s
+Creating a new menu and a login link, and displaying the menu in the footer
+5m 2s
+Creating menu aliases
+3m 28s
+Reordering menu items
+2m 4s
+Adding products, moving the main menu, and configuring a dropdown menu
+8m 45s
+Configuring secondary navigation
+
+
+
+
 
 

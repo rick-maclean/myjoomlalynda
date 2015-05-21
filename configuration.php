@@ -15,7 +15,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'myloomlalynda';
+	public $db = 'myjoomlalynda';
 	public $dbprefix = 'k3y1u_';
 	public $live_site = '';
 	public $secret = 'P7nbIuQTv1Ipy8qN';
