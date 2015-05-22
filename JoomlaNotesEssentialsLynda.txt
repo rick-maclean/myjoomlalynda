@@ -342,36 +342,43 @@ Creating Menus for Your Site
    ...
    ...
    ...
-   
-   
-1h 16m
-Understanding and configuring menus
-2m 52s
-Linking an article to the menu
-4m 10s
-Understanding parent and children menu items
-4m 5s
-Configuring Category Blogs
-3m 23s
-Advanced Category Blog configuration
-8m 44s
-Configuring Category Lists
-3m 16s
-Advanced Category List configuration
-5m 57s
-Creating a featured blog for the News page and configuring the homepage
-10m 19s
-Publishing, unpublishing, and trashing menu items
-4m 58s
-Creating a new menu and a login link, and displaying the menu in the footer
-5m 2s
-Creating menu aliases
-3m 28s
-Reordering menu items
-2m 4s
-Adding products, moving the main menu, and configuring a dropdown menu
-8m 45s
-Configuring secondary navigation
+Understanding and configuring menus==============================================================
+Menu Manger (can create more menus eg FooterMenu)
+Main Menu (most common used)
+
+Where menu displays is set here:
+Extensions : Module Manager : Main Menu(module position selected)
+
+Linking an article to the menu==============================================================
+On the menu page click NEW button
+Menu Type : Article (to select the one I want) : Single Article : SelectSpecificOne
+
+NOTE: Home page does not show up anywhere that I can find.
+I can create featured articles by creating an article and having selecting the Featured button to green
+
+Understanding parent and children menu items==============================================================
+
+Configuring Category Blogs==============================================================
+
+Advanced Category Blog configuration==============================================================
+
+Configuring Category Lists==============================================================
+
+Advanced Category List configuration==============================================================
+
+Creating a featured blog for the News page and configuring the homepage==============================================================
+
+Publishing, unpublishing, and trashing menu items==============================================================
+
+Creating a new menu and a login link, and displaying the menu in the footer==============================================================
+
+Creating menu aliases==============================================================
+
+Reordering menu items==============================================================
+
+Adding products, moving the main menu, and configuring a dropdown menu==============================================================
+
+Configuring secondary navigation==============================================================
 
 
 
