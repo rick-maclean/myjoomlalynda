@@ -357,10 +357,28 @@ NOTE: Home page does not show up anywhere that I can find.
 I can create featured articles by creating an article and having selecting the Featured button to green
 
 Understanding parent and children menu items==============================================================
-
+Again make a LINK to an article
+I can then specify the PARENT ITEM to be one of the other menu items.
+     NOTE I want the submenus to open up
+	 
 Configuring Category Blogs==============================================================
+Solar Blog
+1) Create News&Info menu link
+2) Next create another link to Article : Category Blog : Select the Category of article I want in here.
+3) This will show the stories for this category of blog
+4) I already hear the graphic designers kind of complaining in the background.
+Covered in the next video.
+
+
 
 Advanced Category Blog configuration==============================================================
+YUCK YUCK YUCK clean up articles
+Menus : Solor Blog link(software) : ADVANCED!!!(Blog Layout)  : Block layout options
+					Default  ChangeToBlogByBlog
+Leading Articles  	1			0  
+Intro Articles		4			20 
+Columns				2			1 
+Links				4			0
 
 Configuring Category Lists==============================================================
 
