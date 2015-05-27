@@ -380,24 +380,163 @@ Intro Articles		4			20
 Columns				2			1 
 Links				4			0
 
+ORDER (Probably dont want this)??? Category Order, Article Order (featured?? most recent?? Oldest? Aphabetical, Most Hit?
+										Article Manager Order??)
+		Article Manager Order: go to articles and filter on category and drag and drop to order I want
+
+So unless you absolutely positively have to have these articles in a certain order and ordering them something 
+simple like by Date, putting the most recent one at the top of the page is not going to work for you, use one 
+of those methods if at all possible because it will just be easier for your client to maintain the Web site 
+once you're out of the picture you're done building. 
+		
+		
 Configuring Category Lists==============================================================
+Press Releases : Just want title showing up. 
+
+Menu : Article : Category List : select category
+
 
 Advanced Category List configuration==============================================================
+Turn off Hits, Author, etc etc Have title for page.
+
+List Layouts: turn off some things
+Display Select 
+Show Hists in List 
+Show Author in List 
+
+Title for Page:
+Page Display
+	Browser Page Heading (Shows in Chrome tabs)
+	Show Page Heading : YES 
+	Page Heading : NewsReleases RickLori
+
+
+How about intro Text:
+1) goto Category and put in a description
+2) in menu do this  Category : Category Description : Show
+
 
 Creating a featured blog for the News page and configuring the homepage==============================================================
 
+Beef up the News and Info page: A selection of articles
+can use Featured Articles from various categories show up here.
+1) News and Info menu 
+2) Menu type : Article : Featured Articles :  eg Software and Translation
+3) Advanced Options (Layout) : Choose categories  (unselect All)
+  adjust Leading Articles etc  0 20 1 0 
+4) Featured articles in those categories will be shown.
+5) If I want to adjust order then find  Category Order & Article Order etc.
+6) Want a Title for this Page : Page Display Options : 
+	Show Page Heading : YES 
+	Page Heading : NewsReleases RickLori
+	
+HOME PAGE 
+By default the home page is a featured item BLOG. So if I want to control what shows up then do this....
+1) just show uncategoried articles 
+Or
+2) Change the home page to be Menu Item type of single article 
+      SO just select a single article for the HOME page 
+	  (BUG this does not work. It selects all articles with this category so do the following)	  
+OR  I like this : create a category  HomePageArticle  and only show ones with the Category on the front page
+OR maybe tags could be used???
+
+
+
+
 Publishing, unpublishing, and trashing menu items==============================================================
+This is how to have articles not showing up.
+1) Unpublish Menu Link or Article  by checking or unchecking (best to unpublish menu link if just one article)
+
+
 
 Creating a new menu and a login link, and displaying the menu in the footer==============================================================
 
+FOOTER menu create
+plus small login menu item and remove the BIG one.
+
+1) create footer menu
+ --MenuType no spaces allowed 
+
+2) *****Linked Modules  this is key Click on this
+ and location Protostart (footer position)
+ give a Title and hide it
+ 
+3) AddMenu item 
+   type Users Manager : Login
+   
+   *****Now to remove the default on right do it via Module Manager
+ 
+
+
+
 Creating menu aliases==============================================================
+Home menu item on Footer : easiest to do this via an Alias
+Note the alias was already set to 'home'
+
+Footer Menu : New : type System Links : Menu Item Alias  
+other options 
+URL
+Menu Heading
+Text Separator ????
 
 Reordering menu items==============================================================
+Can change order of Login and Home
+See icons on left of menu items.
+Click at top
+Then click beside menu item and 4 arrows show you can drag and drop
+
+
 
 Adding products, moving the main menu, and configuring a dropdown menu==============================================================
 
-Configuring secondary navigation==============================================================
+DROPDOWN Menu
+1) Created Products Menu
+2) Move menu to another location : Module Manager : 
+Position : Top center NO choose "Navigation" since that handles menus better
+ShowDropdown : Yes 
+3) Grrrr want horizontal
+Menu Class Suffix " nav-pills" from bootstrap (found in CSS files it is a class) see space
 
+
+
+Configuring secondary navigation==============================================================DONT WANT THIS!!!
+On the right side Sub Navigation (old way of dong things) (PROBABLY DO NOT WANT THIS!!!!)
+
+1) Module Manager : New menu module : Menu : SubNaviagation (Hide Title)
+position right-7
+Display : Main Menu
+
+ tweek
+Menu Assignment : "On all pages except" : unselect all : 
+--not footer menu
+Main Menu
+--not home page 
+
+twek more
+Basic Options : Base Item "current" : Start Level "2"
+
+
+
+
+=============================================================================================================
+CHAPTER 6. 
+6. Advanced Article Formatting
+   ...
+   ...
+   ...
+
+37m 30s
+Linking to a PDF or other document
+4m 46s
+Dividing and formatting long articles using page breaks and the Pagebreak plugin
+6m 57s
+Customizing which HTML tags are permitted by changing the text filter in Joomla!
+6m 36s
+Adding a YouTube video to an article
+2m 55s
+Using article-specific images and links
+8m 45s
+Styling images with bootstrap classes
 
 
 
