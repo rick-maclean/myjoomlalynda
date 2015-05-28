@@ -290,6 +290,17 @@ goto Article Manager
 Title
 Category 
 
+To stop showing extra details I do not want:
+1)Open the Article Manager.
+2)Click on the Parameters icon near the top right of your screen.
+3)Locate the Author Name, Created Date and Time and Modified Date and Time drop down fields in the Parameters list and change to Hide as required.
+     Hide: Hides the information globally.
+     Show: Displays the information globaly.
+4)Click the Save.
+These settings apply wherever "Use Global" is selected in the Article's parameters or menu item's parameters.
+
+rick: my guess is that we can turn these on article by article basis.
+
 Formatting articles===========================================================================================
 Headings etc etc etc
 
@@ -525,17 +536,26 @@ CHAPTER 6.
    ...
    ...
 
-37m 30s
-Linking to a PDF or other document
-4m 46s
-Dividing and formatting long articles using page breaks and the Pagebreak plugin
-6m 57s
+Linking to a PDF or other document==============================================================================
+1) Put PDFs in the Media manager
+2) Create a link to it on a page 
+3) Make sure they are small in size since they are downloaded
+
+Dividing and formatting long articles using page breaks and the Pagebreak plugin======================================
+Accordian Panaels  (things open and close as you click)
+eg bio on execs to the company
+
+1) put in page breaks before Rick and Lori
+2) Lets improve the look of this.
+     Extensions : PluginManager : Content-Pagebreak : Presentation Sytle (set to Sliders)
+
+
 Customizing which HTML tags are permitted by changing the text filter in Joomla!
-6m 36s
+
 Adding a YouTube video to an article
-2m 55s
+
 Using article-specific images and links
-8m 45s
+
 Styling images with bootstrap classes
 
 
