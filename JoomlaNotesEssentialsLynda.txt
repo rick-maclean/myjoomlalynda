@@ -541,6 +541,8 @@ Linking to a PDF or other document==============================================
 2) Create a link to it on a page 
 3) Make sure they are small in size since they are downloaded
 
+
+
 Dividing and formatting long articles using page breaks and the Pagebreak plugin======================================
 Accordian Panaels  (things open and close as you click)
 eg bio on execs to the company
@@ -548,15 +550,126 @@ eg bio on execs to the company
 1) put in page breaks before Rick and Lori
 2) Lets improve the look of this.
      Extensions : PluginManager : Content-Pagebreak : Presentation Sytle (set to Sliders)
+	 NOTE: I like TABS
+3) I can get rid of Heading in the article so our names only show up in Tab 
 
 
-Customizing which HTML tags are permitted by changing the text filter in Joomla!
+
+
+Customizing which HTML tags are permitted by changing the text filter in Joomla!===============================================
+
+Embed YouTube video etc.
+I'd like to put a YouTube video inside of my Joomla! article. But when you try to embed something like a YouTube article 
+or Twitter feed or Facebook feed or etc ... Joomla! tends to strip out the code that you paste in. 
+This is a feature not a bug. (security issue)
+
+Also the editor  inside of Joomla!  TinyMCE, also strips out a set of tags 
+
+SO people adding content to our site cannot put in something we don't want.
+
+THEREFORE: how to tweek those settings
+1)
+************ Global Configuration : Text Filters (tab)
+SEE super user, administrator (no Filtering)
+2)
+********** tinyMCE see below
+
+Default Black List- will allow you to put in any kind of HTML except for tags that are on the Black List. 
+Custom Black List- would let you put in any kind of HTML except for tags that you define. 
+White List- means that only tags you specify are permitted, 
+No HTML- means you can't put any HTML and are all just straight text, 
+No Filtering- means nothing is filtered at all
+
+Authors, the Editors, the Publishers, the Managers, 
+all have a default Black List that will strip tags out and some of those tags are typically the 
+****** iFrame tag or the Java's Applet tag 
+is another one that frequently gets stripped out, because these can be potentially harmful to your computer and to your 
+Joomla! system.
+
+2) TinyMCE
+Extensions : Plugin Manger : TinyMCE
+
+a) Functionality : Extended 
+b) see Prohibited Elements (script, applet, iframe(YouTube))
+remove iframe
+this will allow superuser to do this but still others still wont since iframe  is in the Black List
+
+
 
 Adding a YouTube video to an article
+Now add Mark's YouTube video
+1) goto YouTube video
+2) click Share to get the Embed button to show up
+3)  click Embed (to get the iframe tag)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tri4Hda0oyg" frameborder="0" allowfullscreen></iframe>
+4) Goto Article
+Click html view of editor
+Paste iframe
 
-Using article-specific images and links
+Using article-specific images and links=====================================================================================
+Have a tiny version of the image appear on the blog page but the full size on the article
 
-Styling images with bootstrap classes
+Go to Article : see 
+Images and links tab
+set up 'intro image' and 'full article image' for each article
+1) will need to produce smaller versions of the images and upload them (WordPress does this automatically)
+2) float (suggest use Global setting)
+3) Alt Text
+4) Delete the one I pasted in.
+
+http://extensions.joomla.org/profile/extension/photos-a-images/images/resize-image-on-the-fly-and-cache
+
+Want all images to appear the same way
+1) Article Manger
+2) Options :Editing Layout 
+3) Administrator Images and Links (Yes No)  
+    links at bottom or articles can turn off if we are not using this feature
+4) URL open in Parent window or .....
+5) Intro Image Float (left right none etc)
+
+
+
+
+Styling images with bootstrap classes========================================================================================
+Probably can look at this on the bootstrap page
+
+Add pizzaz to images 
+Bootstrap Classes styles (Round corners)
+getbootstrap.com : Css : Images : 
+see this
+<img src="..." alt="..." class="img-rounded">
+<img src="..." alt="..." class="img-circle">
+<img src="..." alt="..." class="img-thumbnail">
+
+How to apply this in Joomla???  (I did not see that little image editor)
+1) goto article
+2) click on image
+3) use little tree icon in TinyMCE 
+4) apply the class
+
+Therefore I just went into html and added 
+class="img-rounded"
+to the image in the html
+
+
+
+=============================================================================================================
+CHAPTER 7. 
+7. Setting Display Options
+   ...
+   ...
+   ...
+Setting global configuration options for articles==============================================================
+
+Setting menu display options===================================================================================
+
+Comparing page headings, article titles, and browser page titles===============================================
+
+Turning off the homepage heading================================================================================
+
+Configuring the back-end and front-end article administrator screens and options================================
+
+
 
 
 
