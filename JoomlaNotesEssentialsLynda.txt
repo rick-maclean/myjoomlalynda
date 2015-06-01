@@ -660,16 +660,71 @@ CHAPTER 7.
    ...
    ...
 Setting global configuration options for articles==============================================================
+By default too much junk in Articles do globally then change article by article
+Globally:
+Article Manager : Options :
+Show Title no/yes keep showing
+Linked Titles (this goes to article when shown in blog list so I like this.)
+Show Category (Hide)
+Link Category (NO)
+Show Author (NO)
+Publication Date (NO)
+
+Show Navigation: PREV and NEXT buttons
+
+Read More: Show Title  (this is better for search engines)
+
+Show Icons
+Show Print Icon
+Show Email Icon      all associated with the gear so maybe dont want this.
+
+
 
 Setting menu display options===================================================================================
+In Blog
+1) have Links for titles
+2) remove ReadMOre buttons 
+
+Can do for one single menu item for all these blogs 
+
+Menu Manager : Main Menu : Software Stories : Advanced Options : Article (now we can change things in here)
+Show "Read More" : Hide
+Show TItle with Read More : Hide
+
 
 Comparing page headings, article titles, and browser page titles===============================================
+--page headings (needed to set for menu and had to say Show in page display area)
+--article titles (with article)
+--browser page titles (shows in tabs of Chrome)
 
 Turning off the homepage heading================================================================================
+HOME (Show Page Heading NO)
 
 Configuring the back-end and front-end article administrator screens and options================================
+Configurations Screens for getting rid of configurations screens
+
+Article Manger : Options : Editing Layout  (allows you to change what options are available when editing)
 
 
+=============================================================================================================
+CHAPTER 8. 
+8. Using Modules
+   ...
+   ...
+   ...
+
+Configuring modules===============================================================================
+
+Creating a search module==============================================================================
+
+Creating a custom HTML module==============================================================================
+
+
+Creating a random image module=============================================================================
+
+Including a module in an article using loadposition========================================================
+
+Exploring administrator modules and turning on the Joomla! version========================================
 
 
 
