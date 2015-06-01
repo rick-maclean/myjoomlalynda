@@ -714,17 +714,80 @@ CHAPTER 8.
    ...
 
 Configuring modules===============================================================================
+Content appears in the Middle of the page
+Modules appear in other areas.
+eg) We created a footer menu (module) in the footer area
+
+MODULE: 
+--A module is any bit of functionality that you'd like to display in some area other than the main part of the Web page. 
+-- It could be something that displays in the Header, the Footer, the left or the right columns, across the top, 
+or even inside an article.
+
+Every template comes with certain module positions, these are positions coded by the person who created the template, 
+which will ultimately contain the modules for that page.
+
+HOW TO SEE POSITIONS:
+backend : Template Manger : Options : Preview Nodule Positions (enable)
+--now click on the eyeball icon by the template
+
+
 
 Creating a search module==============================================================================
+Extensions : Module Manager : New+ : ModuleTypes(can find more online) : 
 
+see Search & SmartSearch(like GoogleSearch)
+NOTE: SmartSearch might not work with content in nonJoomla modules
+ 
+ choose Search position 0 
+ various options
+ Menu Assignment (can limit which pages it appears on)
+ 
+ 
+ 
 Creating a custom HTML module==============================================================================
+A mini article
+*******!!!!!!!How to put testimonials (rick/lori) on right column of home page Like MacLeanManuscirpt.com
+Extensions : Module Manager : New+ : Custom HTML Module
+Title: Rick
+Position 7
+CustomOutput : here is where text goes
 
+I can put a number of them here and also just have them show up on the home page.
+
+Modifying the breadcrumb module=============================================================================
+Shows where you are on the web site (Path)
+Let's put it at top of page and not on Home Page
+Try Top Center 3
+Menu Assignment (not on home page)
+Hide Title    (Breadcrumbs position does not show the title.)
 
 Creating a random image module=============================================================================
+Left Column 
+Chooses it randomly from a folder 
+Extensions : Random Image : Position 8 : choose folder and size etc
+Media Manager to upload a bunch of pictures 
+    can prepare in Photoshop
+	
 
 Including a module in an article using loadposition========================================================
+How about having random image in main HomePage article.
+1) Edit the article:First of all I am going to edit my article and I am going to add a little piece of code I'll show and I'll 
+assign a name for that particular module position,
+{loadposition randomRick}  <---put this at the end of hte article
+
+2) then  go to the back end of Joomla! in the Module Manager and take random image module  and 
+assign it to the module position that we just created, 
+Extensions : Module Manager : Select Random Image module and set position type in the text randomRick
+Also adjust the image size to match what was chosen in Photoshop
+
+
 
 Exploring administrator modules and turning on the Joomla! version========================================
+on the backend there are Administrator modules that can be handy
+
+Extensions : Module Manger : on left can click on Adminsitrator for modules for the backend 
+
+eg to show the Joomla Version when in Admin mode (Isis)
 
 
 
