@@ -792,4 +792,146 @@ eg to show the Joomla Version when in Admin mode (Isis)
 
 
 
+=============================================================================================================
+CHAPTER 9. 
+9. Using Components  (ONLY ONE PER PAGE eg content)
+   ...
+   ...
+   ...
+Using the content component=======================================================
+Content : is a component
+--Content is a kind of component, and it shows up in the main part of the Web page. 
+--There is only one component per page, while there may be many modules on the same page. 
+--components require configuration
+--components need to be assigned to a menus
+--a component may have a module associated with it.
+
+SEE: Components MENU on backend
+
+Create Menu Item : Then you link to a Component type (eg System Links, Wrapper etc etc)
+
+
+Using the contact component=======================================================
+to avoid spam mail
+1) Make contact Category (for contacts)
+2) Create contact like doing an article
+
+Formatting the contact page=======================================================
+Let's improve the contact page 
+1) remove icons
+2) no slider 
+
+Components : Contacts : Contacts : Options
+1) Display Format : make Plain 
+2) IconsTab : Settings --> None 
+
+Here is more info:
+You can build your own form using one of these third-party extensions. RSFormsPro is one from a 
+place called rsjoomla.com. It's a great extension. It has a small price tag associated with it
+It'll also record everything from that form into a spreadsheet that you can then export in CSV 
+format, or you can look at it in Excel, or you can look at it in Access, or whatever it is that 
+you want to do with that data.
+
+
+Configuring CAPTCHA for a form=======================================================
+Like Contact form
+Plugin Manager : Captcha -ReCaptcha
+follow link to Google Link reCaptcha   http://www.google.com/recaptcha
+then get public and private keys
+
+save and close
+
+NOW 
+system : global config : default captcha --> select the plugin
+
+This Captcha plug-in will show on the bottom of all of your contact forms, by default.
+It will also show up at the bottom of any user registration forms that you might have available 
+on the front-end of the Web site,
+
+
+Creating a contact list=======================================================
+Eg, could send email to a list of contacts????
+1) create more contacts
+Components : Contacts : Contacts : New
+Name, Email, Images, ContactCategory etc 
+
+2) could make links to single contacts Or
+Contacts Menu : Contacts : ListInCategory : Management
+
+Now list of Contacts for the site. 
+
+
+Formatting the contact list=======================================================
+Components : Contacts : Contacts : Options 
+List Layouts tab : 
+Display Select : Hide 
+Table Headings : Hide 
+hide city state and country too\
+hide phone 
+
+
+
+
+Using the weblinks component=======================================================
+Link to other web sites 
+
+Links 
+Components : Weblinks (Links and Categories like contacts) 
+1) make categories 
+2) make links 
+3) make menu item to point to links Menu : New : Weblinks : List All WebLink Categories 
+
+changes to look and feel 
+Weblinks : Options 
+?? Open in New Window
+No Icon 
+
+List Layouts tab
+Display Select : off
+Hits : off
+
+
+
+
+Using the redirect component=======================================================
+Google may pull up our old page instead of the new website when we are moving to the new system 
+eg moving from WordPress, Drupal etc
+
+404 error if page not there now.
+
+eg 
+www.macleanmanuscript.com/prayerletters   (does not exist so get 404 error) 
+
+Components : Redirect Component :  will see ones that failed 
+sooooo can have these go to a good URL 
+enable it 
+save and close 
+
+
+
+
+
+=============================================================================================================
+CHAPTER 10. 
+10. Using Templates
+   ...
+   ...
+   ...
+Changing the look of the site using templates====================================================================
+
+Setting the default template style and assigning template styles==================================
+
+Creating new template styles======================================================================================
+
+Adjusting template masters with the HTML and CSS editors==========================================================
+
+Adding an editor.css style sheet for access to certain classes in TinyMCE==================================
+
+Introducing the Hathor admin template====================================================================
+
+Customizing the Isis admin template================================================================================
+
+Working with Joomla! templates from third-party providers=============================================================
+
+
 
