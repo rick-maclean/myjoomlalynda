@@ -913,25 +913,130 @@ save and close
 
 =============================================================================================================
 CHAPTER 10. 
-10. Using Templates
+10. Using Templates (Themes in Wordpress and Drupal)
    ...
    ...
    ...
 Changing the look of the site using templates====================================================================
+Templates for front and backend of website 
+
+Template Manager: 
+Site vs Administrator    (default chosen)
+
+Can have multiple styles for a web site
+See her course on Responsive Design course (using Bootstrap to create a template)
+
 
 Setting the default template style and assigning template styles==================================
+Extensions : Template Manager
 
+can apply another template to other parts of the site 
+1) Select a template 
+2) Click on Menus assignment tab : select various menu items(pages)
+This will apply the template to the various pages
+
+
+
+How about modifying the Protostar template (depends on the template )
+1) select it
+2) Options  (depends on the template ) Joomla! 3: Responsive Templates course shows how to create Options for a template
+   can : change colours, Logo for web site
+
+   Template Color : eg #006078
+   Background Color : eg #fcb209  (branding color)
+   
+   Banner: Logo select (NOTE Wordpress is better for cropping image to fit banner size)
+
+   FONTS: Gooble Font for Headings
+		Google Font Name (see Google web site for a choice)
+
+	Fluid Layout :can changes to use Bootstrap's fluid approach verses specific places mobile resizes
+	
+	
 Creating new template styles======================================================================================
+Copy the style and tweek it.
+Extensions : Template Manager : click on template checkbox : Duplicate button
+
+Now make changes (eg want Home Page unique)
+colour?  headerPictue? 
+
 
 Adjusting template masters with the HTML and CSS editors==========================================================
+This is where you can control the HTML and CSS that makes up the template
+
+Extensions : Template Manager : Templates tab
+click on Protostar details and files link
+NOW can Edit Master files and Stylesheets (big file with Bootstrap stuff and stuff for Protostar)
+
+PHP and HTML
+Can learn about this in the other course
+
+BACKUP:  Click the Copy button and make a new copy that I can mess up if need be.
+
+
 
 Adding an editor.css style sheet for access to certain classes in TinyMCE==================================
+eg (are in Bootstrap)
+image-poloroid
+image-rounded 
+image-circle
+
+Copy styles to improve TinyMCE 
+goto Templates windows folder
+C:\xampp\htdocs\myJoomlaLynda\templates\protostar
+
+Extensions : PluginManager : TinyMCE : Basic(Template CSS Classes)
+will use Editor.css in protostar/css and if not then looks in system/css/editor.css
+COPY to Protostar folder so it can be edited there 
+now add additional styles like this  (I did this and it did not work to change the images)
+.img-rounded {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.img-polaroid {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.img-circle {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+}
 
 Introducing the Hathor admin template====================================================================
+Admin Templates:
+  can download some or use Isis or Hathor
+  visual and motor disabilities (keyboard only)
+  
+NOTE: can assign specific templates for specific users 
+
 
 Customizing the Isis admin template================================================================================
+Extensions : Template Manager : Options 
+colors
+collapse admin menu (if on small monitor) (No to prevent resizing)
 
 Working with Joomla! templates from third-party providers=============================================================
+If you do a quick Google Search for Joomla templates, you'll turn up a zillion results,
+
+eg:
+www.joomlabamboo.com 
+www.rockettheme.com/joomla
+
+One of thing that I have found to be helpful through the years is when I provide a price for a Web site, I like to add about 
+10% of the cost of that Web site 
+into a little slush fund, as I call it, and I tell my clients that little fund is available for me to purchase templates, or 
+extensions, and I will certainly not exceed the cost of that 10%, but I may spend a little bit of money within that pool, 
+in addition to the cost of the Web site as a whole. That gives you a little bit of flexibility, so that you have the ability 
+to buy an extension, or buy a template as required, but you don't have to take that out of the money that you're being paid 
+for your time to build the Joomla Web site that your client hired you to do.
+
 
 
 
