@@ -1075,6 +1075,146 @@ Turning off WAMP error reporting
 
 
 
+=============================================================================================================
+CHAPTER 12. 
+12. Access Control List (ACL) Essentials
+   ...
+   ...
+   ...
+Introduction to ACL=====================================================================================
+Permissions
+For small Web sites, where you may have one person, or a handful of people maintaining the Web site, 
+it's likely you won't even need ACL at all.
+
+Exploring default groups in Joomla!=====================================================================
+Users
+
+User Groups
+Public : visitors
+Guest : New to Jooomla 3 --> content to disapear when someone logs in to web site
+Manager (back end but less than administrator)
+Administrator (can do almost everything except Global Configuration, and other Options)
+Registered : Can log in (maybe hide soem stuff)
+Author (can create and edit their own, not publish )
+Editor (can edit anyone's )
+Publisher (can create content and publish)
+Super Users (can do anything)
+
+
+GUEST NEW : Guest group is, sometimes you'd like some content that shows up on the Web site by default when people 
+are visiting the Web site, and they are not logged in at all, but when someone is logged into the Web site, you'd 
+like that content to disappear, and you'd like people to be able to see a different option instead, and that is the 
+function of the Guest group.
+
+Creating a user=============================================================================================
+
+Exploring default access levels===================================================================================
+
+Configuring content for users behind a login==========================================================================
+
+Configuring content for guest access===================================================================================
+
+Configuring user registration and user options===================================================================================
+
+Configuring a logout button===================================================================================================
+
+Configuring a better login screen and adding an Edit Profile button=============================================================
+
+Extending user profiles======================================================================================================
+
+Working with user notes======================================================================================================
+
+
+=============================================================================================================
+CHAPTER 13. 
+13. Extending Joomla! 3
+   ...
+   ...
+   ...
+Evaluating extensions in the Joomla! Extensions Directory========================================================================
+There are three main kinds of extensions. 
+1)components,   MAIN PART OF PAGE
+2)modules,      SUPPORTING ELEMENTS AROUND EDGES
+3)plug-ins      ARE LITTLE BEHIND THE SCENES FUNCTIONALITY WE CAN TURN ON/OFF
+
+see:  extensions.joomla.org 
+
+eg Akeeba Backup 
+things to look for 
+Editors Pick, Poplular , Rating, C M P (component, module or plugin --can be all)
+Dates: when last updated and version to see how actively being worked on
+Read Reviews : see if developer responds to bad reviews
+
+Installing and creating a backup with Akeeba Backup========================================================================
+Akeeba Backup  **** can save a version 
+  BUT NEED Akeeba Kickstart to recover 
+  
+Installing and creating a site map with Xmap==================================================================================
+Xmap????
+Do we want this??? not really needed
+
+Upgrading extensions===========================================================================================================
+Get Updates for Extensions regularly!!!!
+
+Get Rid of extension you are not going to use.
+
+NOTE: Control Panel will show if extensions need to be updated
+BUT:  verify this
+
+
+
+=============================================================================================================
+CHAPTER 14. 
+14. Launching Your Site and Beyond
+   ...
+   ...
+   ...
+Preparing a site for launch=========================================================================================================
+Move to a web server 
+1) make sure Admin password is strong and login name is strong 
+2) zip up files in htdocs to upload (highlight and send to compressed folder (zip))
+3) export sql file
+MAC localhost:8888/PHPMyAdmin
+
+
+Launching a site====================================================================================================================
+cPanel control panel 
+1) upload zip file 
+File : File Manager : PublicHTMP or www
+remove all files 
+click Upload zip file 
+now Extract Files button 
+
+2) cPanel : Databases : mySQL Database Wizard 
+a) create a DB
+b) Username and Password  (root and nopassword)  so create secure username and password with privilages 
+
+3) Database : PHPMyadmin : username and password : do like I would on PC Import it 
+
+NOW: ensure usernames and passwords are ok
+configuration.php file to change these so it works now.
+
+
+FIX login for UserJoe
+administrator  change users and paths to 
+Control Panel : Menus : Footer Menu : Login : change path under advanced options
+macleanmanuscript.com/
+
+
+
+Placing a site in offline mode and changing the offline image========================================================================
+
+
+
+Thinking about site maintenance and front-end editing=================================================================================
+
+
+
+Understanding the importance of backups and coordinating backups with a web host======================================================
+
+
+
+
 
 
 
