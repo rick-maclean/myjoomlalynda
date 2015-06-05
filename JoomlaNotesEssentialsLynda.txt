@@ -1203,14 +1203,69 @@ macleanmanuscript.com/
 
 
 Placing a site in offline mode and changing the offline image========================================================================
+Testing for client to see but not public to see just yet
 
+1) Global Configuration : Site Offline (YES/NO)
+2) Now can only get in via a username and password  ACL only allows this and can do with super user
+3) Can change the custom message etc etc in Global Configuration
 
 
 Thinking about site maintenance and front-end editing=================================================================================
+1) Train client to make their own changes on front end 
+2) Login
+3) see gear for article so can edit the content
+4) can configure Joomla to just give Clients specific environment so they cannot break things but could add a menu or article etc 
+
+
+SEO Metadescription and Keywords
+
+
+Understanding the importance of backups and coordinating backups with a web host=================================================
+WebHost should make a backup of your site etc.
+Do periodic offsite backups. (akeeba backup can do this)  
+           (we can do this via phpMyAdmin and github or Lori's computer)
+
+Updating your Joomla! site and the Joomla! update notification=====================================================================
+every 4-6 weeks Joomla does a new release.
+normally bug fixes
+1) make a backup of the web site
+2) then do upgrade 
+3) Test it : sometimes 3rd party extensions will break so may need to restore from backup.
+
+See 
+Components : Joomla Updates (will not necessarily show the latest updates)
+can click on Options and see settings to see what is next
+
+=============================================================================================================
+CHAPTER 15. 
+15. Joomla! 3.0.2 Update
+   ...
+   ...
+   ...
+
+Working with language overrides
+
+Working with multilingual associations
 
 
 
-Understanding the importance of backups and coordinating backups with a web host======================================================
+
+=============================================================================================================
+CHAPTER 16. 
+16. Joomla! 3.1.5 Update
+   ...
+   ...
+   ...
+Upgrading your site to Joomla! 3.1.5 (New)
+
+Upgrading your Joomla! extensions (New)
+
+Introducing tagging (New)
+
+Displaying tagged items on the menu (New)
+
+Conclusion
+
 
 
 
