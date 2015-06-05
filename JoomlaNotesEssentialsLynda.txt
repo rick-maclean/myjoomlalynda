@@ -1242,11 +1242,20 @@ CHAPTER 15.
    ...
    ...
    ...
+Working with language overrides============================================================================
+Bugs were fixed in 3.0.2 so this is what was discussed here. Eg English, Italian etc 
+Eg search box: Search... can 
 
-Working with language overrides
+Extensions : Language Manager : Overrides on left 
+can then do a Search for what you are looking for eg "Read More..."
 
-Working with multilingual associations
 
+Working with multilingual associations============================================================================
+When you click on the flag it goes to the homepage vs just changing the language on that page
+
+Plugin Manager : System - Language Filter
+----with this you can associate Menu items with those of the other language and also can do an association 
+    between Articles of the other language too.
 
 
 
