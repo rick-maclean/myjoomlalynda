@@ -1265,15 +1265,41 @@ CHAPTER 16.
    ...
    ...
    ...
-Upgrading your site to Joomla! 3.1.5 (New)
+Upgrading your site to Joomla! 3.1.5 (New)======================================================================
+--Tagging is a core feature vs an extension
+--Bootstrap was updated to 2.3.2 
+--
+--
+--
 
-Upgrading your Joomla! extensions (New)
 
-Introducing tagging (New)
+Upgrading your Joomla! extensions (New)==============================================================================
+May need to look at the 3rd party ones 
 
-Displaying tagged items on the menu (New)
+Introducing tagging (New)============================================================================================
+tagging articles that are not in same category 
 
-Conclusion
+1) Content : Article Manager : open Article 
+2) TAGS: enter words here and hit return after each tag
+3) could add a tag to a Contact person
+
+Displaying tagged items on the menu (New)==============================================================================
+Show tags
+
+Menus : Add+ : select Tags : 
+select 
+  Tagged Items (will show each item in a page) 
+  or 
+  Compact List of Tagged Items (like a list)
+  
+  
+Components : Tags : for TagManager 
+can then modify the spelling of a tag or its title etc etc so what will show up
+
+
+Conclusion========================================================================----------------------------------------
+Help Menu 
+forum.joomla.org 
 
 
 
